@@ -1,0 +1,1 @@
+Yaml configuration [here](./config/50-cloud-init.yaml)
