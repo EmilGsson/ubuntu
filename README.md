@@ -50,9 +50,12 @@ Resultat, stabilitet och nästa steg
 ## 7. Felsökning
 
 ### 7.1 Problem: Ingen internetåtkomst efter omstart  
-Symptom, felmeddelande, orsak, lösning
+Problem: Ingen internetåtkomst efter omstart. [Läs mer här](./Felsokning2.md)
 
 ---
+
+### 7.2 Problem: Fel DNS på host-maskin
+Problem: DNS från VM för hög metric. [Läs mer här](./felsökning.md)
 
 ## 8. Bilaga
 
