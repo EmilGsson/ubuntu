@@ -1,7 +1,3 @@
-Självklart Emil! Här är ett förslag på en **kort teknisk rapport** du kan använda i en inlämning, dokumentation eller som logg:
-
----
-
 ## **Rapport – Felsökning av nätverksproblem i Windows med Hyper-V**
 
 ### **Bakgrund**

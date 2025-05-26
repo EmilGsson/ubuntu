@@ -1,10 +1,6 @@
-Absolut Emil! Här kommer en omskriven version som passar som en liten **felsökningsrapport**, redo att kopieras in i dokumentationen:
-
----
-
 ### 7.1 Felsökningsrapport – Internetförbindelse förlorad efter omstart
 
-#### 🔍 Problem
+####  Problem
 
 Efter att Ubuntu-servern startades om upptäcktes att Windows-klienten inte längre hade åtkomst till internet, trots att den fortfarande fick IP-adress och DNS via DHCP från Ubuntu-servern.
 
@@ -55,6 +51,4 @@ ip a
 
 Efter uppdateringen fick `eth1` en korrekt IP-adress och Ubuntu-servern kunde åter nå internet. Detta återställde även NAT-funktionen, vilket gjorde att Windows-klienten kunde nå internet igen.
 
----
 
-Vill du att jag kopierar in detta i dokumentet också eller vill du klistra in det manuellt under Felsökning?

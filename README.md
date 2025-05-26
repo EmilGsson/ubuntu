@@ -40,8 +40,8 @@ Resultat, stabilitet och nästa steg
 
 ## 6. Riskanalys
 
-### 6.1 Tekniska risker  
-### 6.2 Nätverksrisker  
+### 6.1 [Tekniska risker](./tekniska%20risker.md)  
+### 6.2 [Nätverksrisker](./nätverksrisker)
 ### 6.3 Användarfel  
 ### 6.4 Åtgärder och rekommendationer  
 
