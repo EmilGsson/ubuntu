@@ -3,7 +3,7 @@
 ---
 
 ## 1. Mål med uppgiften
-Översikt av vad som ska byggas och varför
+[Översikt av vad som ska byggas och varför](./Översikt)
 
 ---
 
@@ -15,11 +15,12 @@
 
 ## 3. Valda tekniker
 Operativsystem och tjänster som används:
-- Bind9
-- DHCP
-- rsyslog
-- logrotate
-- Zabbix
+- [Bind9](./dns.md)
+- [DHCP](./dhcp.md)
+- [rsyslog](./)
+- [logrotate](./All%20scripts/scripts.md)
+- [Zabbix](./)
+- [Brandvägg](./Firewall)
 
 ---
 
@@ -30,11 +31,13 @@ Operativsystem och tjänster som används:
 ### 4.3 [Syslog](./syslog.md)
 ### 4.4 [Logrotate](./logrotate.md)
 ### 4.5 [Zabbix](./zabbix.md)
+### 4.6 [Brandvägg](./Firewall)
+
 
 ---
 
 ## 5. Utvärdering
-Resultat, stabilitet och nästa steg
+[Resultat, stabilitet.](./Utvärdering)
 
 ---
 
@@ -42,8 +45,8 @@ Resultat, stabilitet och nästa steg
 
 ### 6.1 [Tekniska risker](./tekniska%20risker.md)  
 ### 6.2 [Nätverksrisker](./nätverksrisker)
-### 6.3 Användarfel  
-### 6.4 Åtgärder och rekommendationer  
+### 6.3 [Användarfel](./användarfel)
+### 6.4 [Åtgärder och rekommendationer](./åtgärder)
 
 ---
 
