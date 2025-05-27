@@ -1,0 +1,16 @@
+
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	emil2.local. root.emil2.local. (
+		          2025012302    ; Serial
+			  604800	; Refresh
+			  86400		; Retry
+			  2419200	; Expire
+			  604800 )	; Negative Cache TTL
+;
+@	IN	NS	emil2.local.
+@	IN	A	10.99.2.10
+www	IN      A       10.99.2.10
+alias   IN      CNAME   www.emil2.local.
+mail    IN      A       10.99.2.10
