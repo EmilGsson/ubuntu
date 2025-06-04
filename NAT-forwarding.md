@@ -22,8 +22,5 @@ Och körts med:
 sudo sysctl -p
 ```
 
-
-
-
-
-Configuration [NAT](./config/named.conf.options.mdnamed.conf.options.md)
+[port forwarding](./sysctl.conf.md)
+[Firewall UFW-settings](./config/ufw-status.md)
