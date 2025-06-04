@@ -1,3 +1,7 @@
-Script för [loggning](./loggit.sh)
 
-Script för [loggcleanup](./loggcleanup)
+
+
+
+Script för [loggning](./loggit.md)
+
+Script för [loggcleanup](./loggcleanup.md)321

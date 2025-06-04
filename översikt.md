@@ -8,7 +8,7 @@ Servern ska innehålla följande komponenter:
 
 - En DNS-server som hanterar intern namnupplösning
 
-- Systemövervakning med Zabbix, inklusive agent på minst en klient
+- Systemövervakning med Zabbix, inklusive agent på klienter
 
 - Loggning och logghantering med Rsyslog och Logrotate
 

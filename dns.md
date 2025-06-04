@@ -1,4 +1,4 @@
-Läs [här](./dnsconfiguration) för configurationsfiler
+Läs [här](./dnsconfiguration.md) för configurationsfiler
 
 Installerade bind9 med APT
 

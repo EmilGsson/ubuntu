@@ -6,21 +6,21 @@ Efter att Ubuntu-servern startades om upptäcktes att Windows-klienten inte län
 
 ####  Symptom
 
-Vid ping-försök från Windows till exempelvis `8.8.8.8` visades felmeddelandet:
+Vid ping-försök från Windows till exempelvis 8.8.8.8 visades felmeddelandet:
 
-```
+
 Destination net unreachable
-```
+
 
 ####  Orsak
 
-Problemet spårades till att **Ubuntu-serverns interface `eth1` saknade IP-adress** efter omstart. Detta interface är anslutet till Hyper-V\:s NAT-baserade **Default Switch**, som används för att ge Ubuntu tillgång till internet. Eftersom `eth1` inte var definierad i nätverkskonfigurationen (Netplan), blev det inaktivt vid uppstart.
+Problemet spårades till att **Ubuntu-serverns interface eth1 saknade IP-adress** efter omstart. Detta interface är anslutet till Hyper-V\:s NAT-baserade **Default Switch**, som används för att ge Ubuntu tillgång till internet. Eftersom eth1 inte var definierad i nätverkskonfigurationen blev det inaktivt vid uppstart.
 
 ####  Åtgärd
 
-Konfigurationsfilen `/etc/netplan/50-cloud-init.yaml` modifierades för att inkludera interface `eth1` med DHCP aktiverat:
+Konfigurationsfilen /etc/netplan/50-cloud-init.yaml modifierades för att inkludera interface eth1 med DHCP aktiverat:
 
-```yaml
+yaml
 network:
   version: 2
   ethernets:
@@ -33,22 +33,22 @@ network:
         addresses: [10.99.2.10, 8.8.8.8]
     eth1:
       dhcp4: yes
-```
+
 
 Ändringen tillämpades med:
 
-```bash
+
 sudo netplan apply
-```
+
 
 Därefter bekräftades att `eth1` fått IP-adress från Hyper-V\:s Default Switch genom kommandot:
 
-```bash
+
 ip a
-```
+
 
 ####  Resultat
 
-Efter uppdateringen fick `eth1` en korrekt IP-adress och Ubuntu-servern kunde åter nå internet. Detta återställde även NAT-funktionen, vilket gjorde att Windows-klienten kunde nå internet igen.
+Efter uppdateringen fick eth1 en korrekt IP-adress och Ubuntu-servern kunde åter nå internet. Detta återställde även NAT-funktionen, vilket gjorde att Windows-klienten kunde nå internet igen.
 
 

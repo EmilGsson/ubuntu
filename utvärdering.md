@@ -1,0 +1,7 @@
+Projektet har genomförts enligt plan och uppgiftens mål har uppnåtts. Servern fungerar som nav i nätverket och tillhandahåller viktiga tjänster som DHCP, DNS, NAT och övervakning. Stabiliteten har varit god efter konfiguration, och samtliga tjänster fungerar som tänkt i den virtuella miljön.
+
+Kommunikationen mellan server och klient sker utan problem. Klienten tilldelas korrekt IP-adress via DHCP och kan nå både interna resurser och internet genom servern. DNS-slaget fungerar och domännamn kan upplösas, och all trafik från klienten loggas på servern. Zabbix-övervakningen visar realtidsdata från både server och klient, vilket gör det enkelt att följa systemets status.
+
+Logghantering är också på plats. Syslog tar emot och sparar loggar kontinuerligt, och logrotate hanterar rotation och rensning av gamla loggfiler. Ett eget script har tagits fram för att arkivera och ladda upp roterade loggar till GitHub varje vecka, vilket ger en enkel form av backup.
+
+Säkerheten är förbättrad med brandväggsregler via UFW, samt SSH med nyckelbaserad inloggning. Sammantaget visar projektet att det är fullt möjligt att sätta upp en stabil och säker servermiljö i Ubuntu anpassad för ett litet till medelstort nätverk.

@@ -1,1 +1,0 @@
-Se [Scripts](./All%20scripts/scripts.md)

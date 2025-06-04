@@ -1,9 +1,10 @@
-Skapade egen konfig i /etc/logrotate.d/syslog-custom
+4.4 Syslog-konfiguration
+Logghanteringen på servern sker med hjälp av rsyslog, som är ett system för att ta emot och spara loggar. I denna uppgift har rsyslog konfigurerats för att:
 
-För /var/log/syslog, rotation varje vecka, behåll 4 st, komprimerade
+Samla systemloggar från servern
 
-Lade till raden su root syslog för att undvika felmeddelande om rättigheter
+Tillåta loggar att tas emot via UDP-port 514 (för framtida klienter)
 
-Verifierade funktion genom att tvinga rotation med logrotate -f
+Verifiering har skett med kommandot logger "test" och kontroll i /var/log/syslog
 
-Filer som syslog.1 och syslog.2.gz genererades korrekt
+Standardkonfigurationen i /etc/rsyslog.conf användes med mindre justeringar.

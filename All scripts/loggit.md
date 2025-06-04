@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 DATUM=$(date +"%Y-%m-%d_%H-%M")
 REPO_DIR="$HOME/ubuntu/loggar"
