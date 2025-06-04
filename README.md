@@ -18,7 +18,8 @@ Projektets mål är att bygga en Ubuntu-baserad serverlösning som teoretiskt ka
 - En Windows-klient ansluten till servern  
 - Intern IP-struktur i 10.99.2.0/24-nätet  
 - Internetåtkomst via serverns NAT och IP-forwarding  
-
+- [ip addressing](./ipaddressing.md)
+- [Virtualisering och nätverksdesign](./Virtualisering.md)
 ---
 
 ## 3. Använda komponenter  
@@ -50,7 +51,7 @@ Problem som uppstod under installation/test samt lösningar:
 
 ---
 
-## 6. Riskhantering  
+## 6. Riskanalys
 
 | Typ             | Dokumentation                          |
 |------------------|----------------------------------------|
