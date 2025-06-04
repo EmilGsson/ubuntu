@@ -51,7 +51,7 @@ Problem som uppstod under installation/test samt lösningar:
 
 ---
 
-## 6. Riskanalys
+## 6. Riskanalys 
 
 | Typ             | Dokumentation                          |
 |------------------|----------------------------------------|
