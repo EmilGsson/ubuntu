@@ -29,7 +29,7 @@ Projektets mål är att bygga en Ubuntu-baserad serverlösning som teoretiskt ka
 | **DHCP**       | Automatisk IP-utdelning till klient                      | [dhcp.md](./dhcp.md)                   |
 | **DNS**        | Bind9 hanterar namnuppslagning internt                   | [dns.md](./dns.md)                     |
 | **Syslog**     | Central logginsamling med rsyslog                        | [syslog.md](./syslog.md)               |
-| **Logrotate**  | Automatisk logghantering och rensning                    | [Logrotate.md](./Logrotate.md)       |
+| **Logrotate**  | Automatisk logghantering och rensning                    | [Logrotate.md](./logrotate.md)       |
 | **Zabbix**     | Övervakning av server och klient                         | [zabbix.md](./zabbix.md)               |
 | **NAT / Firewall** | Delar internet och skyddar interna resurser          | [NAT-forwarding.md](./NAT-forwarding.md) |
 
