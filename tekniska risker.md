@@ -1,7 +1,7 @@
 6.1 Tekniska risker
 Stora loggfiler: /var/log/syslog växte snabbt till över 400 000 rader. Om loggrotation inte är korrekt konfigurerat kan serverns disk fyllas.
  Åtgärd: Skapade en egen logrotate-konfig med weekly, rotate 4, compress och su root syslog. Verifierades med logrotate -f.
-→ [Se Logrotate-konfiguration](Loggrotate.md)
+→ [Se Logrotate-konfiguration](Logrotate.md)
 
 Felaktiga crontab-tider: Fel i crontab gör att viktiga skript som loggbackup (loggit.sh) eller rensning (loggcleanup.sh) inte körs.
  Åtgärd: Har testat båda skripten manuellt, lagt till schemalagda uppgifter och kontrollerat via crontab -l.
