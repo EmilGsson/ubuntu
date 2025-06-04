@@ -1,4 +1,4 @@
-Yaml configuration [here](./config/50-cloud-init.yaml)
+Yaml configuration [here](./config/50-cloud-init.yaml.md)
 
 Installerade isc-dhcp-server
 
