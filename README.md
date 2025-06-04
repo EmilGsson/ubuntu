@@ -50,7 +50,7 @@ Problem som uppstod under installation/test samt lösningar:
 
 ---
 
-## 6. Riskhantering  
+## 6. Riskanalys 
 
 | Typ             | Dokumentation                          |
 |------------------|----------------------------------------|
